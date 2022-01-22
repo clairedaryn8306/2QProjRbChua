@@ -1,0 +1,126 @@
+body {
+    margin: auto;
+    background: #7a606a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    display: block;
+    background: #a6939a;
+    margin-top: -20px;
+    border-right: 1px solid white;
+    height: 100%;
+    width: 25%;
+    max-width: 250px;
+    min-width: 200px;
+    font-size: larger;
+    z-index: 1;
+}
+
+li a, span {
+    display: block;
+    width: 240px;
+    text-align: justify;
+    text-decoration: none;
+    padding: 10px 0px 10px 10px;
+}
+
+li:first-child {
+    border-bottom: 1px solid white;
+}
+
+li a:hover {
+    background: white;
+    color: #7a606a;
+}
+
+.content {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-left: 250px;
+}
+
+.album {
+    color: white;
+    text-align: center;
+}
+
+.album img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 50px;
+}
+
+table {
+    margin: auto;
+    color: white;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+td {
+    color: white;
+    background-color: #a6939a;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tracknumber {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.backhome {
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    background-color: #a6939a;
+    margin-bottom: 50px;
+}
+
+.socialmedia {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.bg-youtube {
+    width: 50px; height: 50px;
+    background: url('../images/css_sprites.png') -10px -80px;
+    margin: auto;
+}
+
+.bg-spotify {
+    width: 50px; height: 50px;
+    background: url('../images/css_sprites.png') -80px -10px;
+    margin: auto;
+}
+
+.bg-instagram {
+    width: 50px; height: 50px;
+    background: url('../images/css_sprites.png') -10px -10px;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
